@@ -1,96 +1,122 @@
 ,item,seen,picked,pick_rate
-0,"CardInfo(effects=(None, CardEffectInfo(type='Absorb', target='self', value=2), None), element='fire', legality='legal', viewType='standard')",60,1,0.016666666666666666
-1,"CardInfo(effects=(None, CardEffectInfo(type='MultiplyNextAttack', target='self', value=None), None), element='fire', legality='legal', viewType='standard')",54,5,0.09259259259259259
-2,"CardInfo(effects=(None, None, CardEffectInfo(type='Explode', target='opponent', value=3)), element='fire', legality='legal', viewType='standard')",64,6,0.09375
-3,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=3), None, CardEffectInfo(type='Damage', target='self', value=1)), element='fire', legality='legal', viewType='standard')",64,49,0.765625
-4,"CardInfo(effects=(None, None, CardEffectInfo(type='Purge', target='opponent', value=1)), element='none', legality='legal', viewType='standard')",1,0,0.0
-5,"CardInfo(effects=(CardEffectInfo(type='Blaze', target='self', value=1), None, None), element='fire', legality='legal', viewType='standard')",58,30,0.5172413793103449
-6,"CardInfo(effects=(CardEffectInfo(type='Rain', target='self', value=2), None, None), element='water', legality='legal', viewType='standard')",13,10,0.7692307692307693
-7,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=2), None, None), element='none', legality='legal', viewType='standard')",36,29,0.8055555555555556
-8,"CardInfo(effects=(None, CardEffectInfo(type='Draw', target='self', value=None), None), element='water', legality='legal', viewType='standard')",8,0,0.0
-9,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=3), CardEffectInfo(type='Discard', target='self', value=3), None), element='fire', legality='legal', viewType='standard')",58,35,0.603448275862069
-10,"CardInfo(effects=(CardEffectInfo(type='Purge', target='opponent', value=1), None, None), element='none', legality='legal', viewType='standard')",27,6,0.2222222222222222
-11,"CardInfo(effects=(CardEffectInfo(type='ElementUp', target='self', value=None), None, None), element='fire', legality='legal', viewType='standard')",50,8,0.16
-12,"CardInfo(effects=(CardEffectInfo(type='Free', target=None, value=None), CardEffectInfo(type='Block', target='self', value=1), None), element='jazz', legality='legal', viewType='standard')",11,1,0.09090909090909091
-13,"CardInfo(effects=(None, CardEffectInfo(type='Improvise', target='self', value=None), None), element='jazz', legality='legal', viewType='standard')",12,1,0.08333333333333333
-14,"CardInfo(effects=(None, CardEffectInfo(type='Cool', target='self', value=2), None), element='jazz', legality='legal', viewType='standard')",17,0,0.0
-15,"CardInfo(effects=(None, None, CardEffectInfo(type='Quickdraw', target='self', value=2)), element='fire', legality='legal', viewType='standard')",5,0,0.0
-16,"CardInfo(effects=(None, CardEffectInfo(type='Damage', target='opponent', value=3), CardEffectInfo(type='Damage', target='self', value=1)), element='fire', legality='legal', viewType='standard')",2,1,0.5
-17,"CardInfo(effects=(None, CardEffectInfo(type='Grow', target='self', value=1), None), element='umami', legality='legal', viewType='standard')",20,1,0.05
-18,"CardInfo(effects=(CardEffectInfo(type='Mold', target='opponent', value=2), None, None), element='umami', legality='legal', viewType='standard')",16,3,0.1875
-19,"CardInfo(effects=(CardEffectInfo(type='Absorb', target='self', value=2), None, None), element='umami', legality='legal', viewType='standard')",23,8,0.34782608695652173
-20,"CardInfo(effects=(None, CardEffectInfo(type='ElementUp', target='self', value=None), None), element='water', legality='legal', viewType='standard')",1,0,0.0
-21,"CardInfo(effects=(CardEffectInfo(type='ChargeShot', target='self', value=2), None, None), element='water', legality='legal', viewType='standard')",7,1,0.14285714285714285
-22,"CardInfo(effects=(CardEffectInfo(type='Free', target=None, value=None), CardEffectInfo(type='Heal', target='self', value=1), None), element='water', legality='legal', viewType='standard')",12,0,0.0
-23,"CardInfo(effects=(CardEffectInfo(type='Heal', target='self', value=2), None, None), element='none', legality='legal', viewType='standard')",21,3,0.14285714285714285
-24,"CardInfo(effects=(CardEffectInfo(type='Tempo', target='self', value=None), CardEffectInfo(type='Heal', target='self', value=1), None), element='fire', legality='legal', viewType='standard')",1,0,0.0
-25,"CardInfo(effects=(None, CardEffectInfo(type='Free', target=None, value=None), None), element='none', legality='legal', viewType='standard')",31,7,0.22580645161290322
-26,"CardInfo(effects=(CardEffectInfo(type='Block', target='self', value=2), None, None), element='none', legality='legal', viewType='standard')",25,6,0.24
-27,"CardInfo(effects=(CardEffectInfo(type='ElementUp', target='self', value=None), None, None), element='jazz', legality='legal', viewType='standard')",7,0,0.0
-28,"CardInfo(effects=(None, CardEffectInfo(type='Rightmost', target='self', value=2), CardEffectInfo(type='Damage', target='opponent', value=1)), element='fire', legality='legal', viewType='standard')",61,35,0.5737704918032787
-29,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=1), CardEffectInfo(type='BlockBonus', target='self', value=None), None), element='water', legality='legal', viewType='standard')",11,9,0.8181818181818182
-30,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=1), CardEffectInfo(type='MissingHpBonus', target='self', value=1), None), element='fire', legality='legal', viewType='standard')",26,16,0.6153846153846154
-31,"CardInfo(effects=(None, CardEffectInfo(type='Chain', target='self', value=None), CardEffectInfo(type='Damage', target='opponent', value=1)), element='fire', legality='legal', viewType='standard')",26,13,0.5
-32,"CardInfo(effects=(None, CardEffectInfo(type='PlayNextTwice', target='self', value=None), None), element='none', legality='legal', viewType='standard')",5,0,0.0
-33,"CardInfo(effects=(CardEffectInfo(type='Cleanse', target='self', value=1), None, None), element='none', legality='legal', viewType='standard')",26,6,0.23076923076923078
-34,"CardInfo(effects=(None, CardEffectInfo(type='Leech', target='opponent', value=2), None), element='umami', legality='legal', viewType='standard')",20,4,0.2
-35,"CardInfo(effects=(None, CardEffectInfo(type='GiveHeavyRecoil', target='opponent', value=2), CardEffectInfo(type='Power', target='opponent', value=None)), element='umami', legality='legal', viewType='standard')",8,6,0.75
-36,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=0), CardEffectInfo(type='Ferment', target=None, value=None), None), element='umami', legality='legal', viewType='standard')",15,14,0.9333333333333333
-37,"CardInfo(effects=(CardEffectInfo(type='Heal', target='self', value=1), CardEffectInfo(type='Tempo', target='self', value=None), None), element='fire', legality='legal', viewType='standard')",2,0,0.0
-38,"CardInfo(effects=(None, CardEffectInfo(type='Phoenix', target='self', value=1), None), element='fire', legality='legal', viewType='standard')",21,0,0.0
-39,"CardInfo(effects=(CardEffectInfo(type='Heal', target='self', value=3), None, CardEffectInfo(type='Heal', target='opponent', value=2)), element='umami', legality='legal', viewType='standard')",19,5,0.2631578947368421
-40,"CardInfo(effects=(None, CardEffectInfo(type='Blaze', target='self', value=1), None), element='fire', legality='legal', viewType='standard')",4,0,0.0
-41,"CardInfo(effects=(None, CardEffectInfo(type='PreventNextDamage', target='self', value=None), CardEffectInfo(type='Power', target='opponent', value=None)), element='umami', legality='legal', viewType='standard')",10,0,0.0
-42,"CardInfo(effects=(CardEffectInfo(type='GainMusicNote', target='self', value=2), None, CardEffectInfo(type='Suspend', target='self', value=1)), element='jazz', legality='legal', viewType='standard')",14,11,0.7857142857142857
-43,"CardInfo(effects=(None, CardEffectInfo(type='BoostAdjacent', target='self', value=1), None), element='jazz', legality='legal', viewType='standard')",8,6,0.75
-44,"CardInfo(effects=(CardEffectInfo(type='GainMushroom', target='self', value=2), None, None), element='umami', legality='legal', viewType='standard')",14,0,0.0
-45,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=1), CardEffectInfo(type='Ignite', target='self', value=None), None), element='fire', legality='legal', viewType='standard')",2,0,0.0
-46,"CardInfo(effects=(None, CardEffectInfo(type='Burn', target='opponent', value=2), None), element='jazz', legality='legal', viewType='standard')",10,1,0.1
-47,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=1), None, CardEffectInfo(type='MissingHpBonus', target='self', value=1)), element='fire', legality='legal', viewType='standard')",1,1,1.0
-48,"CardInfo(effects=(None, None, CardEffectInfo(type='PlayNextTwice', target='self', value=None)), element='none', legality='legal', viewType='standard')",1,0,0.0
-49,"CardInfo(effects=(CardEffectInfo(type='ElementUp', target='self', value=None), None, None), element='umami', legality='legal', viewType='standard')",20,5,0.25
-50,"CardInfo(effects=(None, CardEffectInfo(type='Respect', target='self', value=2), None), element='jazz', legality='legal', viewType='standard')",11,8,0.7272727272727273
-51,"CardInfo(effects=(None, None, CardEffectInfo(type='Drain', target='opponent', value=3)), element='umami', legality='legal', viewType='standard')",3,2,0.6666666666666666
-52,"CardInfo(effects=(CardEffectInfo(type='Replica', target='self', value=None), CardEffectInfo(type='Grow', target='self', value=1), None), element='umami', legality='legal', viewType='standard')",3,0,0.0
-53,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=1), CardEffectInfo(type='CardInDiscardBonus', target='self', value=1), None), element='umami', legality='legal', viewType='standard')",2,0,0.0
-54,"CardInfo(effects=(CardEffectInfo(type='Block', target='self', value=4), None, CardEffectInfo(type='Cooldown', target='self', value=1)), element='water', legality='legal', viewType='standard')",1,0,0.0
-55,"CardInfo(effects=(None, CardEffectInfo(type='ChargeShot', target='self', value=2), None), element='water', legality='legal', viewType='standard')",1,0,0.0
-56,"CardInfo(effects=(None, CardEffectInfo(type='Eat', target='self', value=None), CardEffectInfo(type='Fish', target='self', value=None)), element='umami', legality='legal', viewType='standard')",15,12,0.8
-57,"CardInfo(effects=(None, CardEffectInfo(type='Reflect', target='self', value=2), None), element='water', legality='legal', viewType='standard')",4,1,0.25
-58,"CardInfo(effects=(CardEffectInfo(type='ElementUp', target='self', value=None), None, None), element='water', legality='legal', viewType='standard')",9,1,0.1111111111111111
-59,"CardInfo(effects=(None, CardEffectInfo(type='Flood', target='self', value=1), None), element='water', legality='legal', viewType='standard')",9,4,0.4444444444444444
-60,"CardInfo(effects=(CardEffectInfo(type='BoostAdjacent', target='self', value=1), None, None), element='jazz', legality='legal', viewType='standard')",2,1,0.5
-61,"CardInfo(effects=(None, CardEffectInfo(type='Mirror', target='opponent', value=1), None), element='none', legality='legal', viewType='standard')",4,1,0.25
-62,"CardInfo(effects=(CardEffectInfo(type='BlockBonus', target='self', value=None), CardEffectInfo(type='Damage', target='opponent', value=1), None), element='water', legality='legal', viewType='standard')",2,2,1.0
-63,"CardInfo(effects=(None, CardEffectInfo(type='Purge', target='opponent', value=1), None), element='none', legality='legal', viewType='standard')",1,0,0.0
-64,"CardInfo(effects=(CardEffectInfo(type='Phoenix', target='self', value=1), None, None), element='fire', legality='legal', viewType='standard')",2,0,0.0
-65,"CardInfo(effects=(CardEffectInfo(type='Rightmost', target='self', value=2), None, CardEffectInfo(type='Damage', target='opponent', value=1)), element='fire', legality='legal', viewType='standard')",3,0,0.0
-66,"CardInfo(effects=(None, None, CardEffectInfo(type='GainMoney', target='self', value=10)), element='none', legality='legal', viewType='standard')",9,1,0.1111111111111111
-67,"CardInfo(effects=(None, CardEffectInfo(type='Paralyze', target='opponent', value=None), None), element='umami', legality='legal', viewType='standard')",6,0,0.0
-68,"CardInfo(effects=(None, CardEffectInfo(type='BoostAdjacent', target='self', value=2), CardEffectInfo(type='WeakenThis', target='self', value=1)), element='jazz', legality='legal', viewType='standard')",1,1,1.0
-69,"CardInfo(effects=(None, CardEffectInfo(type='Heal', target='self', value=3), CardEffectInfo(type='Heal', target='opponent', value=2)), element='umami', legality='legal', viewType='standard')",4,0,0.0
-70,"CardInfo(effects=(CardEffectInfo(type='Eat', target='self', value=None), None, CardEffectInfo(type='Fish', target='self', value=None)), element='umami', legality='legal', viewType='standard')",1,1,1.0
-71,"CardInfo(effects=(CardEffectInfo(type='Explode', target='opponent', value=3), None, None), element='fire', legality='legal', viewType='standard')",1,0,0.0
-72,"CardInfo(effects=(CardEffectInfo(type='GainMoney', target='self', value=10), None, None), element='none', legality='legal', viewType='standard')",1,0,0.0
-73,"CardInfo(effects=(CardEffectInfo(type='MissingHpBonus', target='self', value=1), CardEffectInfo(type='Damage', target='opponent', value=1), None), element='fire', legality='legal', viewType='standard')",1,1,1.0
-74,"CardInfo(effects=(None, CardEffectInfo(type='Power', target='self', value=None), None), element='none', legality='legal', viewType='standard')",1,0,0.0
-75,"CardInfo(effects=(None, None, CardEffectInfo(type='ElementUp', target='self', value=None)), element='umami', legality='legal', viewType='standard')",1,1,1.0
-76,"CardInfo(effects=(CardEffectInfo(type='Damage', target='self', value=1), None, CardEffectInfo(type='Damage', target='opponent', value=3)), element='fire', legality='legal', viewType='standard')",1,1,1.0
-77,"CardInfo(effects=(None, CardEffectInfo(type='Cleanse', target='self', value=1), None), element='none', legality='legal', viewType='standard')",1,0,0.0
-78,"CardInfo(effects=(None, None, CardEffectInfo(type='MultiplyNextAttack', target='self', value=None)), element='fire', legality='legal', viewType='standard')",1,1,1.0
-79,"CardInfo(effects=(None, CardEffectInfo(type='Sweep', target='opponent', value=None), None), element='water', legality='legal', viewType='standard')",2,0,0.0
-80,"CardInfo(effects=(CardEffectInfo(type='Heal', target='self', value=1), CardEffectInfo(type='Free', target=None, value=None), None), element='water', legality='legal', viewType='standard')",2,0,0.0
-81,"CardInfo(effects=(None, CardEffectInfo(type='Block', target='self', value=2), None), element='none', legality='legal', viewType='standard')",1,0,0.0
-82,"CardInfo(effects=(CardEffectInfo(type='Cool', target='self', value=2), None, None), element='jazz', legality='legal', viewType='standard')",2,0,0.0
-83,"CardInfo(effects=(CardEffectInfo(type='GainMusicNote', target='self', value=1), CardEffectInfo(type='Free', target=None, value=None), None), element='jazz', legality='legal', viewType='standard')",1,1,1.0
-84,"CardInfo(effects=(CardEffectInfo(type='Damage', target='opponent', value=3), None, CardEffectInfo(type='Discard', target='self', value=3)), element='fire', legality='legal', viewType='standard')",1,1,1.0
-85,"CardInfo(effects=(CardEffectInfo(type='Power', target='opponent', value=None), CardEffectInfo(type='PreventNextDamage', target='self', value=None), None), element='umami', legality='legal', viewType='standard')",1,0,0.0
-86,"CardInfo(effects=(None, CardEffectInfo(type='PowerMax', target='self', value=None), CardEffectInfo(type='HalveHP', target='self', value=None)), element='fire', legality='legal', viewType='standard')",1,0,0.0
-87,"CardInfo(effects=(None, CardEffectInfo(type='Heal', target='self', value=2), None), element='none', legality='legal', viewType='standard')",1,0,0.0
-88,"CardInfo(effects=(None, CardEffectInfo(type='Damage', target='opponent', value=2), None), element='none', legality='legal', viewType='standard')",1,0,0.0
-89,"CardInfo(effects=(CardEffectInfo(type='Discard', target='self', value=3), CardEffectInfo(type='Damage', target='opponent', value=3), None), element='fire', legality='legal', viewType='standard')",1,1,1.0
-90,"CardInfo(effects=(CardEffectInfo(type='BoostAdjacent', target='self', value=2), None, CardEffectInfo(type='WeakenThis', target='self', value=1)), element='jazz', legality='legal', viewType='standard')",1,0,0.0
-91,"CardInfo(effects=(None, CardEffectInfo(type='Explode', target='opponent', value=3), None), element='fire', legality='legal', viewType='standard')",1,0,0.0
-92,"CardInfo(effects=(CardEffectInfo(type='Leech', target='opponent', value=2), None, None), element='umami', legality='legal', viewType='standard')",1,0,0.0
-93,"CardInfo(effects=(None, None, CardEffectInfo(type='Respect', target='self', value=2)), element='jazz', legality='legal', viewType='standard')",1,0,0.0
-94,"CardInfo(effects=(None, CardEffectInfo(type='ElementUp', target='self', value=None), None), element='jazz', legality='legal', viewType='standard')",1,0,0.0
+0,"{""effects"": [{""type"": ""Cleanse"", ""target"": ""self"", ""value"": 1}, null, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",36,6,0.16666666666666666
+1,"{""effects"": [{""type"": ""Blaze"", ""target"": ""self"", ""value"": 1}, null, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",79,17,0.21518987341772153
+2,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}, {""type"": ""Discard"", ""target"": ""self"", ""value"": 3}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",67,41,0.6119402985074627
+3,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}, null, {""type"": ""Damage"", ""target"": ""self"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",70,41,0.5857142857142857
+4,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""Ignite"", ""target"": ""self"", ""value"": null}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+5,"{""effects"": [{""type"": ""Absorb"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",20,3,0.15
+6,"{""effects"": [{""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}, null, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",20,3,0.15
+7,"{""effects"": [{""type"": ""GainMushroom"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",20,8,0.4
+8,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""MissingHpBonus"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",53,41,0.7735849056603774
+9,"{""effects"": [null, {""type"": ""Chain"", ""target"": ""self"", ""value"": null}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",48,32,0.6666666666666666
+10,"{""effects"": [null, {""type"": ""PlayNextTwice"", ""target"": ""self"", ""value"": null}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",19,1,0.05263157894736842
+11,"{""effects"": [{""type"": ""Mold"", ""target"": ""opponent"", ""value"": 2}, null, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",20,2,0.1
+12,"{""effects"": [{""type"": ""Leech"", ""target"": ""opponent"", ""value"": 2}, null, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+13,"{""effects"": [null, {""type"": ""Free"", ""target"": null, ""value"": null}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",33,5,0.15151515151515152
+14,"{""effects"": [{""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}, null, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",50,16,0.32
+15,"{""effects"": [{""type"": ""MultiplyNextAttack"", ""target"": ""self"", ""value"": null}, null, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",6,2,0.3333333333333333
+16,"{""effects"": [{""type"": ""GainMusicNote"", ""target"": ""self"", ""value"": 2}, null, {""type"": ""Suspend"", ""target"": ""self"", ""value"": 1}], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",16,10,0.625
+17,"{""effects"": [null, {""type"": ""BoostAdjacent"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",11,2,0.18181818181818182
+18,"{""effects"": [null, {""type"": ""Phoenix"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",43,0,0.0
+19,"{""effects"": [null, null, {""type"": ""GainMoney"", ""target"": ""self"", ""value"": 10}], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",25,3,0.12
+20,"{""effects"": [null, {""type"": ""Grow"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",29,1,0.034482758620689655
+21,"{""effects"": [null, {""type"": ""Leech"", ""target"": ""opponent"", ""value"": 2}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",18,11,0.6111111111111112
+22,"{""effects"": [null, {""type"": ""GiveHeavyRecoil"", ""target"": ""opponent"", ""value"": 2}, {""type"": ""Power"", ""target"": ""opponent"", ""value"": null}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",22,4,0.18181818181818182
+23,"{""effects"": [null, {""type"": ""Eat"", ""target"": ""self"", ""value"": null}, {""type"": ""Fish"", ""target"": ""self"", ""value"": null}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",19,4,0.21052631578947367
+24,"{""effects"": [null, {""type"": ""Mirror"", ""target"": ""opponent"", ""value"": 1}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",3,0,0.0
+25,"{""effects"": [null, {""type"": ""Cool"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",13,4,0.3076923076923077
+26,"{""effects"": [null, {""type"": ""Burn"", ""target"": ""opponent"", ""value"": 2}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",22,8,0.36363636363636365
+27,"{""effects"": [null, null, {""type"": ""Explode"", ""target"": ""opponent"", ""value"": 3}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",58,1,0.017241379310344827
+28,"{""effects"": [null, {""type"": ""MultiplyNextAttack"", ""target"": ""self"", ""value"": null}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",54,12,0.2222222222222222
+29,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""CardsPlayedBonus"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",4,3,0.75
+30,"{""effects"": [null, {""type"": ""Improvise"", ""target"": ""self"", ""value"": null}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",11,1,0.09090909090909091
+31,"{""effects"": [null, {""type"": ""Respect"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",13,5,0.38461538461538464
+32,"{""effects"": [{""type"": ""Free"", ""target"": null, ""value"": null}, {""type"": ""Block"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",9,1,0.1111111111111111
+33,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 0}, {""type"": ""Ferment"", ""target"": null, ""value"": null}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",26,14,0.5384615384615384
+34,"{""effects"": [{""type"": ""Improvise"", ""target"": ""self"", ""value"": null}, null, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",3,1,0.3333333333333333
+35,"{""effects"": [{""type"": ""Block"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",25,1,0.04
+36,"{""effects"": [null, null, {""type"": ""Drain"", ""target"": ""opponent"", ""value"": 3}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",14,14,1.0
+37,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""CardInDiscardBonus"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",17,1,0.058823529411764705
+38,"{""effects"": [{""type"": ""Absorb"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+39,"{""effects"": [null, {""type"": ""Rightmost"", ""target"": ""self"", ""value"": 2}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",73,55,0.7534246575342466
+40,"{""effects"": [{""type"": ""Chain"", ""target"": ""self"", ""value"": null}, null, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+41,"{""effects"": [{""type"": ""Heal"", ""target"": ""self"", ""value"": 3}, null, {""type"": ""Heal"", ""target"": ""opponent"", ""value"": 2}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",26,12,0.46153846153846156
+42,"{""effects"": [null, {""type"": ""PreventNextDamage"", ""target"": ""self"", ""value"": null}, {""type"": ""Power"", ""target"": ""opponent"", ""value"": null}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",18,10,0.5555555555555556
+43,"{""effects"": [null, {""type"": ""Paralyze"", ""target"": ""opponent"", ""value"": null}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",22,1,0.045454545454545456
+44,"{""effects"": [null, {""type"": ""GainMusicNote"", ""target"": ""self"", ""value"": 2}, {""type"": ""Suspend"", ""target"": ""self"", ""value"": 1}], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,2,1.0
+45,"{""effects"": [{""type"": ""Purge"", ""target"": ""opponent"", ""value"": 1}, null, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",25,3,0.12
+46,"{""effects"": [null, {""type"": ""Absorb"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",58,2,0.034482758620689655
+47,"{""effects"": [null, null, {""type"": ""Quickdraw"", ""target"": ""self"", ""value"": 2}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",5,1,0.2
+48,"{""effects"": [null, {""type"": ""Reflect"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",19,10,0.5263157894736842
+49,"{""effects"": [null, {""type"": ""Draw"", ""target"": ""self"", ""value"": null}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",20,3,0.15
+50,"{""effects"": [{""type"": ""Free"", ""target"": null, ""value"": null}, {""type"": ""Heal"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",13,2,0.15384615384615385
+51,"{""effects"": [{""type"": ""Heal"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",33,6,0.18181818181818182
+52,"{""effects"": [null, {""type"": ""Power"", ""target"": ""self"", ""value"": null}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",6,5,0.8333333333333334
+53,"{""effects"": [{""type"": ""Replica"", ""target"": ""self"", ""value"": null}, {""type"": ""Grow"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",17,0,0.0
+54,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 2}, null, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",30,29,0.9666666666666667
+55,"{""effects"": [null, {""type"": ""Focus"", ""target"": ""self"", ""value"": null}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",7,0,0.0
+56,"{""effects"": [null, {""type"": ""ChargeShot"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+57,"{""effects"": [{""type"": ""Rain"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",15,8,0.5333333333333333
+58,"{""effects"": [{""type"": ""Improvise"", ""target"": ""self"", ""value"": null}, {""type"": ""Twice"", ""target"": null, ""value"": null}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+59,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""Storm"", ""target"": ""self"", ""value"": null}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+60,"{""effects"": [null, {""type"": ""FreeRightOf"", ""target"": ""self"", ""value"": null}, {""type"": ""Cycle"", ""target"": ""self"", ""value"": null}], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+61,"{""effects"": [null, {""type"": ""Discard"", ""target"": ""self"", ""value"": 3}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+62,"{""effects"": [{""type"": ""Discard"", ""target"": ""self"", ""value"": 3}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",5,3,0.6
+63,"{""effects"": [{""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}, null, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",10,3,0.3
+64,"{""effects"": [null, null, {""type"": ""Phoenix"", ""target"": ""self"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,0,0.0
+65,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""BlockBonus"", ""target"": ""self"", ""value"": null}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",14,11,0.7857142857142857
+66,"{""effects"": [{""type"": ""ChargeShot"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",10,0,0.0
+67,"{""effects"": [{""type"": ""GainMusicNote"", ""target"": ""self"", ""value"": 1}, {""type"": ""Free"", ""target"": null, ""value"": null}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+68,"{""effects"": [null, {""type"": ""Flood"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",19,4,0.21052631578947367
+69,"{""effects"": [{""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}, null, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",13,6,0.46153846153846156
+70,"{""effects"": [null, {""type"": ""Sweep"", ""target"": ""opponent"", ""value"": null}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",4,0,0.0
+71,"{""effects"": [null, {""type"": ""BoostAdjacent"", ""target"": ""self"", ""value"": 2}, {""type"": ""WeakenThis"", ""target"": ""self"", ""value"": 1}], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+72,"{""effects"": [null, {""type"": ""GoHam"", ""target"": ""self"", ""value"": null}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",7,4,0.5714285714285714
+73,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""Chain"", ""target"": ""self"", ""value"": null}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+74,"{""effects"": [{""type"": ""Mirror"", ""target"": ""opponent"", ""value"": 1}, null, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+75,"{""effects"": [{""type"": ""Fish"", ""target"": ""self"", ""value"": null}, {""type"": ""Eat"", ""target"": ""self"", ""value"": null}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+76,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}, null, {""type"": ""Discard"", ""target"": ""self"", ""value"": 3}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,2,1.0
+77,"{""effects"": [null, {""type"": ""Absorb"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,0,0.0
+78,"{""effects"": [{""type"": ""Burn"", ""target"": ""opponent"", ""value"": 2}, null, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+79,"{""effects"": [null, {""type"": ""Explode"", ""target"": ""opponent"", ""value"": 3}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+80,"{""effects"": [null, {""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",5,2,0.4
+81,"{""effects"": [null, null, {""type"": ""ChargeShot"", ""target"": ""self"", ""value"": 2}], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+82,"{""effects"": [null, {""type"": ""Block"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+83,"{""effects"": [null, null, {""type"": ""Cleanse"", ""target"": ""self"", ""value"": 1}], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+84,"{""effects"": [null, {""type"": ""Cleanse"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+85,"{""effects"": [null, {""type"": ""Heal"", ""target"": ""self"", ""value"": 3}, {""type"": ""Heal"", ""target"": ""opponent"", ""value"": 2}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+86,"{""effects"": [null, {""type"": ""Mold"", ""target"": ""opponent"", ""value"": 2}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,0,0.0
+87,"{""effects"": [null, {""type"": ""Heal"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+88,"{""effects"": [null, {""type"": ""Heal"", ""target"": ""self"", ""value"": 1}, {""type"": ""Free"", ""target"": null, ""value"": null}], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+89,"{""effects"": [null, {""type"": ""DoubleBlock"", ""target"": ""self"", ""value"": null}, {""type"": ""Cycle"", ""target"": ""self"", ""value"": null}], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+90,"{""effects"": [null, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}, {""type"": ""Damage"", ""target"": ""self"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+91,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, {""type"": ""CardInHandBonus"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,2,1.0
+92,"{""effects"": [{""type"": ""Heal"", ""target"": ""opponent"", ""value"": 2}, null, {""type"": ""Heal"", ""target"": ""self"", ""value"": 3}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+93,"{""effects"": [{""type"": ""Grow"", ""target"": ""self"", ""value"": 1}, {""type"": ""Replica"", ""target"": ""self"", ""value"": null}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+94,"{""effects"": [{""type"": ""Damage"", ""target"": ""self"", ""value"": 1}, null, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+95,"{""effects"": [{""type"": ""CardInDiscardBonus"", ""target"": ""self"", ""value"": 1}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,0,0.0
+96,"{""effects"": [{""type"": ""Free"", ""target"": null, ""value"": null}, null, null], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,1,0.5
+97,"{""effects"": [{""type"": ""MissingHpBonus"", ""target"": ""self"", ""value"": 1}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+98,"{""effects"": [{""type"": ""Block"", ""target"": ""self"", ""value"": 4}, null, {""type"": ""Cooldown"", ""target"": ""self"", ""value"": 1}], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,0,0.0
+99,"{""effects"": [{""type"": ""PreventNextDamage"", ""target"": ""self"", ""value"": null}, null, {""type"": ""Power"", ""target"": ""opponent"", ""value"": null}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,2,1.0
+100,"{""effects"": [null, {""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+101,"{""effects"": [null, {""type"": ""PowerMax"", ""target"": ""self"", ""value"": null}, {""type"": ""HalveHP"", ""target"": ""self"", ""value"": null}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",4,0,0.0
+102,"{""effects"": [{""type"": ""Cool"", ""target"": ""self"", ""value"": 2}, null, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+103,"{""effects"": [null, null, {""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,0,0.0
+104,"{""effects"": [{""type"": ""Draw"", ""target"": ""self"", ""value"": null}, null, null], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+105,"{""effects"": [{""type"": ""Phoenix"", ""target"": ""self"", ""value"": 1}, null, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",4,0,0.0
+106,"{""effects"": [{""type"": ""Heal"", ""target"": ""self"", ""value"": 1}, {""type"": ""Tempo"", ""target"": ""self"", ""value"": null}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",2,0,0.0
+107,"{""effects"": [{""type"": ""Damage"", ""target"": ""opponent"", ""value"": 3}, {""type"": ""Damage"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+108,"{""effects"": [null, {""type"": ""GainMushroom"", ""target"": ""self"", ""value"": 2}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+109,"{""effects"": [null, {""type"": ""BlockBonus"", ""target"": ""self"", ""value"": null}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}], ""element"": ""water"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+110,"{""effects"": [null, null, {""type"": ""PlayNextTwice"", ""target"": ""self"", ""value"": null}], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+111,"{""effects"": [null, null, {""type"": ""Heal"", ""target"": ""self"", ""value"": 2}], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+112,"{""effects"": [null, null, {""type"": ""GoHam"", ""target"": ""self"", ""value"": null}], ""element"": ""none"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+113,"{""effects"": [null, null, {""type"": ""MultiplyNextAttack"", ""target"": ""self"", ""value"": null}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+114,"{""effects"": [null, {""type"": ""Power"", ""target"": ""opponent"", ""value"": null}, {""type"": ""PreventNextDamage"", ""target"": ""self"", ""value"": null}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+115,"{""effects"": [null, {""type"": ""ElementUp"", ""target"": ""self"", ""value"": null}, null], ""element"": ""jazz"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+116,"{""effects"": [null, {""type"": ""Blaze"", ""target"": ""self"", ""value"": 1}, null], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+117,"{""effects"": [null, null, {""type"": ""Blaze"", ""target"": ""self"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+118,"{""effects"": [null, {""type"": ""Power"", ""target"": ""opponent"", ""value"": null}, {""type"": ""GiveHeavyRecoil"", ""target"": ""opponent"", ""value"": 2}], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
+119,"{""effects"": [{""type"": ""Ferment"", ""target"": null, ""value"": null}, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 0}, null], ""element"": ""umami"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,0,0.0
+120,"{""effects"": [{""type"": ""Rightmost"", ""target"": ""self"", ""value"": 2}, null, {""type"": ""Damage"", ""target"": ""opponent"", ""value"": 1}], ""element"": ""fire"", ""legality"": ""legal"", ""viewType"": ""standard""}",1,1,1.0
