@@ -104,6 +104,7 @@ class TSNEPointData(BaseModel):
     y: float
     id: str
     effect_count: List[float]
+    episode_return: Optional[float]
 
 
 class TSNEPointData3D(TSNEPointData):
@@ -123,6 +124,7 @@ class PointData:
     collection: List[List[CardInfo]]
     effect_count: List[List[float]]
     point_index: List[int]
+    episode_return: List[float]
 
 
 @dataclass
@@ -138,6 +140,7 @@ def build_point_data(points: List[TSNEPointData | TSNEPointData3D]) -> PointData
     point_index = []
     collection = []
     effect_count = []
+    episode_return = []
     for idx, p in enumerate(points):
         x.append(p.x)
         y.append(p.y)
@@ -145,6 +148,10 @@ def build_point_data(points: List[TSNEPointData | TSNEPointData3D]) -> PointData
         collection.append(p.collection)
         effect_count.append(p.effect_count)
         point_index.append(idx)
+        if p.episode_return is None:
+            episode_return.append(0.0)
+        else:
+            episode_return.append(p.episode_return)
     return PointData(
         x=x,
         y=y,
@@ -152,6 +159,7 @@ def build_point_data(points: List[TSNEPointData | TSNEPointData3D]) -> PointData
         point_index=point_index,
         collection=collection,
         effect_count=effect_count,
+        episode_return=episode_return,
     )
 
 

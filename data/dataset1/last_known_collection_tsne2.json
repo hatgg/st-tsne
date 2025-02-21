@@ -253,7 +253,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 25.0
         },
         {
             "collection": [
@@ -439,7 +440,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 33.0
         },
         {
             "collection": [
@@ -661,7 +663,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 42.0
         },
         {
             "collection": [
@@ -895,7 +898,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 33.0
         },
         {
             "collection": [
@@ -1077,7 +1081,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 19.0
         },
         {
             "collection": [
@@ -1245,7 +1250,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -1413,7 +1419,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 12.0
         },
         {
             "collection": [
@@ -1683,7 +1690,8 @@
                 1.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 70.0
         },
         {
             "collection": [
@@ -1881,7 +1889,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -2053,7 +2062,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -2261,7 +2271,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 37.0
         },
         {
             "collection": [
@@ -2425,7 +2436,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 11.0
         },
         {
             "collection": [
@@ -2611,7 +2623,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 9.0
         },
         {
             "collection": [
@@ -2797,7 +2810,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 10.0
         },
         {
             "collection": [
@@ -3009,7 +3023,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -3181,7 +3196,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -3345,7 +3361,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -3541,7 +3558,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -3705,7 +3723,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -3935,7 +3954,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -4161,7 +4181,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 39.0
         },
         {
             "collection": [
@@ -4351,7 +4372,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -4523,7 +4545,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -4741,7 +4764,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -4959,7 +4983,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -5185,7 +5210,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -5379,7 +5405,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -5587,7 +5614,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 19.0
         },
         {
             "collection": [
@@ -5759,7 +5787,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -5963,7 +5992,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 24.0
         },
         {
             "collection": [
@@ -6135,7 +6165,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -6317,7 +6348,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -6489,7 +6521,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -6661,7 +6694,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -6861,7 +6895,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -7021,7 +7056,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 8.0
         },
         {
             "collection": [
@@ -7225,7 +7261,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 25.0
         },
         {
             "collection": [
@@ -7397,7 +7434,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -7619,7 +7657,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 24.0
         },
         {
             "collection": [
@@ -7787,7 +7826,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 12.0
         },
         {
             "collection": [
@@ -7991,7 +8031,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 29.0
         },
         {
             "collection": [
@@ -8159,7 +8200,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -8381,7 +8423,8 @@
                 0.0,
                 2.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -8567,7 +8610,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 19.0
         },
         {
             "collection": [
@@ -8731,7 +8775,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -8943,7 +8988,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 32.0
         },
         {
             "collection": [
@@ -9151,7 +9197,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 38.0
         },
         {
             "collection": [
@@ -9323,7 +9370,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -9509,7 +9557,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 17.0
         },
         {
             "collection": [
@@ -9713,7 +9762,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 38.0
         },
         {
             "collection": [
@@ -9921,7 +9971,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -10129,7 +10180,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 33.0
         },
         {
             "collection": [
@@ -10333,7 +10385,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 24.0
         },
         {
             "collection": [
@@ -10545,7 +10598,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 38.0
         },
         {
             "collection": [
@@ -10771,7 +10825,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 54.0
         },
         {
             "collection": [
@@ -10939,7 +10994,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -11111,7 +11167,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -11301,7 +11358,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -11487,7 +11545,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 19.0
         },
         {
             "collection": [
@@ -11655,7 +11714,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -11823,7 +11883,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -11991,7 +12052,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 8.0
         },
         {
             "collection": [
@@ -12155,7 +12217,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -12331,7 +12394,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 19.0
         },
         {
             "collection": [
@@ -12525,7 +12589,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 19.0
         },
         {
             "collection": [
@@ -12689,7 +12754,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -12875,7 +12941,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 22.0
         },
         {
             "collection": [
@@ -13097,7 +13164,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -13291,7 +13359,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 29.0
         },
         {
             "collection": [
@@ -13505,7 +13574,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -13669,7 +13739,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -13851,7 +13922,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 11.0
         },
         {
             "collection": [
@@ -14051,7 +14123,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -14225,7 +14298,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 10.0
         },
         {
             "collection": [
@@ -14429,7 +14503,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 24.0
         },
         {
             "collection": [
@@ -14597,7 +14672,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -14765,7 +14841,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -15005,7 +15082,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 46.0
         },
         {
             "collection": [
@@ -15227,7 +15305,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 38.0
         },
         {
             "collection": [
@@ -15457,7 +15536,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -15697,7 +15777,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -15937,7 +16018,8 @@
                 0.0,
                 1.0,
                 1.0
-            ]
+            ],
+            "episode_return": 55.0
         },
         {
             "collection": [
@@ -16127,7 +16209,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -16321,7 +16404,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 29.0
         },
         {
             "collection": [
@@ -16523,7 +16607,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -16753,7 +16838,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -16957,7 +17043,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -17165,7 +17252,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -17325,7 +17413,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -17493,7 +17582,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -17669,7 +17759,8 @@
                 0.0,
                 1.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -17869,7 +17960,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 22.0
         },
         {
             "collection": [
@@ -18095,7 +18187,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -18313,7 +18406,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -18517,7 +18611,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 25.0
         },
         {
             "collection": [
@@ -18721,7 +18816,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 26.0
         },
         {
             "collection": [
@@ -18943,7 +19039,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         },
         {
             "collection": [
@@ -19111,7 +19208,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 13.0
         },
         {
             "collection": [
@@ -19329,7 +19427,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 40.0
         },
         {
             "collection": [
@@ -19527,7 +19626,8 @@
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "episode_return": 34.0
         }
     ]
 }

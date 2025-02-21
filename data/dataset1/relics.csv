@@ -1,11 +1,11 @@
 ,item,seen,picked,pick_rate
-0,Microphone,15,6,0.4
-1,Flameheart,15,8,0.5333333333333333
+0,Flameheart,15,8,0.5333333333333333
+1,Microphone,15,6,0.4
 2,FalseMustache,14,1,0.07142857142857142
 3,CoolSword,17,15,0.8823529411764706
 4,PhoenixFeather,22,18,0.8181818181818182
-5,TBone,17,17,1.0
-6,Bacon,25,6,0.24
+5,Bacon,25,6,0.24
+6,TBone,17,17,1.0
 7,HugeClouds,20,6,0.3
 8,Horns,17,15,0.8823529411764706
 9,Shades,6,3,0.5

@@ -136,6 +136,17 @@ def show_tsne_data(tsne_data: TSNEData, proc_key: ProcessedKeyLiteral):
     effect_names = tsne_data.effect_names
     p_data = tsne_data.points
 
+    color_option = st.selectbox(
+        "Select color data",
+        options=["Default", "episode_return"],
+        key=f"color_select_{proc_key}",
+    )
+
+    if color_option == "Default":
+        marker_color = "rgba(34,197,94,0.7)"  # Default static color
+    else:
+        marker_color = p_data.episode_return  # Use the list of floats
+
     # Create two main columns: left for the chart and right for the cards
     left_col, right_col = st.columns([2, 1])
     with left_col:
@@ -145,7 +156,12 @@ def show_tsne_data(tsne_data: TSNEData, proc_key: ProcessedKeyLiteral):
                 x=p_data.x,
                 y=p_data.y,
                 mode="markers",
-                marker=dict(size=8, color="rgba(34,197,94,0.7)"),
+                marker=dict(
+                    size=8,
+                    color=marker_color,
+                    colorscale="Viridis",  # Only applies if marker_color is a list of numbers
+                    showscale=True if color_option != "Default" else False,
+                ),
                 hovertext=p_data.id,
             )
         )
