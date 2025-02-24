@@ -1,0 +1,2222 @@
+{
+    "effect_names": [
+        "None",
+        "Absorb (self)",
+        "Blaze (self)",
+        "Block (self)",
+        "Chain (self)",
+        "ChargeShot (self)",
+        "Damage (opponent)",
+        "Damage (self)",
+        "Discard (self)",
+        "Drain (opponent)",
+        "Draw (self)",
+        "ElementUp (self)",
+        "Ferment (None)",
+        "Free (None)",
+        "GainMoney (self)",
+        "GainMushroom (self)",
+        "GoHam (self)",
+        "Heal (opponent)",
+        "Heal (self)",
+        "Ignite (self)",
+        "Improvise (self)",
+        "Leech (opponent)",
+        "MissingHpBonus (self)",
+        "Mold (opponent)",
+        "Paralyze (opponent)",
+        "PlayNextTwice (self)",
+        "Power (opponent)",
+        "Power (self)",
+        "PreventNextDamage (self)",
+        "Reflect (self)",
+        "Respect (self)",
+        "Rightmost (self)"
+    ],
+    "points": [
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        null,
+                        {
+                            "type": "Damage",
+                            "target": "self",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Chain",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        null
+                    ],
+                    "element": "spicy",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Mold",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "water",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "ElementUp",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Rightmost",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "spicy",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": -19.28582000732422,
+            "y": 16.97836685180664,
+            "id": "point0",
+            "effect_count": [
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                7.0,
+                1.0,
+                0.0,
+                6.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                5.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0
+            ],
+            "episode_return": 39.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 4
+                        },
+                        {
+                            "type": "Discard",
+                            "target": "self",
+                            "value": 3
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "MissingHpBonus",
+                            "target": "self",
+                            "value": 1
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "GainMushroom",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 5
+                        },
+                        {
+                            "type": "Absorb",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "GainMoney",
+                            "target": "self",
+                            "value": 10
+                        }
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": 42.08191680908203,
+            "y": -4.658491611480713,
+            "id": "point1",
+            "effect_count": [
+                0.0,
+                2.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0,
+                7.0,
+                0.0,
+                3.0,
+                5.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "episode_return": 40.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        {
+                            "type": "Discard",
+                            "target": "self",
+                            "value": 3
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        null,
+                        {
+                            "type": "Damage",
+                            "target": "self",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Heal",
+                            "target": "self",
+                            "value": 4
+                        },
+                        null,
+                        {
+                            "type": "Heal",
+                            "target": "opponent",
+                            "value": 2
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        {
+                            "type": "MissingHpBonus",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Paralyze",
+                            "target": "opponent",
+                            "value": null
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "ChargeShot",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "water",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Reflect",
+                            "target": "self",
+                            "value": 3
+                        },
+                        {
+                            "type": "Absorb",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "PlayNextTwice",
+                            "target": "self",
+                            "value": null
+                        },
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": 21.553524017333984,
+            "y": -9.758220672607422,
+            "id": "point2",
+            "effect_count": [
+                0.0,
+                2.0,
+                0.0,
+                2.0,
+                0.0,
+                2.0,
+                7.0,
+                1.0,
+                3.0,
+                6.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                4.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "episode_return": 55.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Absorb",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Ignite",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Free",
+                            "target": null,
+                            "value": null
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Chain",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Heal",
+                            "target": "self",
+                            "value": 3
+                        },
+                        null,
+                        {
+                            "type": "Heal",
+                            "target": "opponent",
+                            "value": 2
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 4
+                        },
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 4
+                        },
+                        {
+                            "type": "Draw",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Heal",
+                            "target": "opponent",
+                            "value": 2
+                        }
+                    ],
+                    "element": "fish",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": -37.60520553588867,
+            "y": -37.5419807434082,
+            "id": "point3",
+            "effect_count": [
+                0.0,
+                2.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0,
+                11.0,
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                4.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "episode_return": 40.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "ElementUp",
+                            "target": "self",
+                            "value": null
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "ElementUp",
+                            "target": "self",
+                            "value": null
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Paralyze",
+                            "target": "opponent",
+                            "value": null
+                        },
+                        {
+                            "type": "Chain",
+                            "target": "self",
+                            "value": null
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Respect",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 4
+                        }
+                    ],
+                    "element": "rock",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": -45.08671188354492,
+            "y": -11.180424690246582,
+            "id": "point4",
+            "effect_count": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0,
+                7.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0
+            ],
+            "episode_return": 40.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Improvise",
+                            "target": "self",
+                            "value": null
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        {
+                            "type": "Discard",
+                            "target": "self",
+                            "value": 3
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "ChargeShot",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "water",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "GainMushroom",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "ElementUp",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Chain",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "jazz",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Reflect",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "GoHam",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": 8.008281707763672,
+            "y": -16.189313888549805,
+            "id": "point5",
+            "effect_count": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                2.0,
+                4.0,
+                0.0,
+                3.0,
+                6.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "episode_return": 40.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Rightmost",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        {
+                            "type": "MissingHpBonus",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "PreventNextDamage",
+                            "target": "self",
+                            "value": null
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 5
+                        },
+                        {
+                            "type": "Power",
+                            "target": "opponent",
+                            "value": null
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        null,
+                        {
+                            "type": "Damage",
+                            "target": "self",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Rightmost",
+                            "target": "self",
+                            "value": 3
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "spicy",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": -7.517560005187988,
+            "y": 32.89485168457031,
+            "id": "point6",
+            "effect_count": [
+                0.0,
+                0.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0,
+                6.0,
+                1.0,
+                0.0,
+                8.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                5.0
+            ],
+            "episode_return": 40.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        null,
+                        {
+                            "type": "Damage",
+                            "target": "self",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Rightmost",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 4
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "GainMushroom",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "PreventNextDamage",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Power",
+                            "target": "opponent",
+                            "value": null
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        {
+                            "type": "Reflect",
+                            "target": "self",
+                            "value": 3
+                        },
+                        null
+                    ],
+                    "element": "steam",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": 10.253230094909668,
+            "y": 21.500553131103516,
+            "id": "point7",
+            "effect_count": [
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                9.0,
+                1.0,
+                0.0,
+                7.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                2.0
+            ],
+            "episode_return": 45.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Blaze",
+                            "target": "self",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Rightmost",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Chain",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "ElementUp",
+                            "target": "self",
+                            "value": null
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 6
+                        },
+                        {
+                            "type": "Ferment",
+                            "target": null,
+                            "value": null
+                        },
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "GoHam",
+                            "target": "self",
+                            "value": null
+                        },
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 5
+                        },
+                        {
+                            "type": "Heal",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "water",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": -48.35298156738281,
+            "y": -26.611968994140625,
+            "id": "point8",
+            "effect_count": [
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                1.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0,
+                14.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0
+            ],
+            "episode_return": 40.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 2
+                        }
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        {
+                            "type": "Discard",
+                            "target": "self",
+                            "value": 3
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Chain",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        {
+                            "type": "MissingHpBonus",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        {
+                            "type": "Power",
+                            "target": "self",
+                            "value": null
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Mold",
+                            "target": "opponent",
+                            "value": 4
+                        },
+                        {
+                            "type": "Rightmost",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "spicy",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": -14.691086769104004,
+            "y": 1.6064727306365967,
+            "id": "point9",
+            "effect_count": [
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                8.0,
+                0.0,
+                3.0,
+                8.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                4.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0
+            ],
+            "episode_return": 71.0
+        },
+        {
+            "collection": [
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Rightmost",
+                            "target": "self",
+                            "value": 2
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 3
+                        },
+                        {
+                            "type": "Damage",
+                            "target": "self",
+                            "value": 1
+                        }
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Damage",
+                            "target": "opponent",
+                            "value": 1
+                        },
+                        {
+                            "type": "MissingHpBonus",
+                            "target": "self",
+                            "value": 1
+                        },
+                        null
+                    ],
+                    "element": "fire",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Leech",
+                            "target": "opponent",
+                            "value": 2
+                        },
+                        null,
+                        null
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        {
+                            "type": "GoHam",
+                            "target": "self",
+                            "value": null
+                        },
+                        null
+                    ],
+                    "element": "none",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Reflect",
+                            "target": "self",
+                            "value": 3
+                        },
+                        {
+                            "type": "Chain",
+                            "target": "self",
+                            "value": null
+                        },
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 4
+                        }
+                    ],
+                    "element": "steam",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        {
+                            "type": "Block",
+                            "target": "self",
+                            "value": 1
+                        },
+                        {
+                            "type": "ElementUp",
+                            "target": "self",
+                            "value": null
+                        },
+                        null
+                    ],
+                    "element": "water",
+                    "legality": "legal",
+                    "viewType": "standard"
+                },
+                {
+                    "effects": [
+                        null,
+                        null,
+                        {
+                            "type": "Drain",
+                            "target": "opponent",
+                            "value": 3
+                        }
+                    ],
+                    "element": "umami",
+                    "legality": "legal",
+                    "viewType": "standard"
+                }
+            ],
+            "x": 1.558322548866272,
+            "y": 11.143864631652832,
+            "id": "point10",
+            "effect_count": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                7.0,
+                1.0,
+                0.0,
+                7.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                2.0
+            ],
+            "episode_return": 40.0
+        }
+    ]
+}
